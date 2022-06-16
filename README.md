@@ -83,3 +83,22 @@ Exec pa pa pa:
 _ _
 a b 
 -------------------------------------------------------------------------------------------------------
+
+
+# Решение
+
+## 1. Индексация
+
+By the task we know that given numbers cannot contain duplicates. So we can assign index for each number. It will help us in future steps.
+
+The index 0 will be assigned to the smallest number. To the largest number will be assigned the count of numbers - 1 index.
+
+| Число         |    Индекс   |
+|:-------------:|-------------|
+| -2147483648   | 0 |
+| 2100          | 4 |
+| 220010        | 6 |
+| -1            | 1 |
+| 7             | 2 |
+| 210815        | 5 |
+| 121           | 3 |
